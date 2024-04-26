@@ -14,7 +14,7 @@ ignoreErrors = ["error-remote-getjson"]
 
 # ------------------------------
 theme = "paper-adjusted"
-title = "OLO "
+title = "OrvarLOg"
 
 [params]
   color = 'linen'
