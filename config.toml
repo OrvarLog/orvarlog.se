@@ -1,5 +1,7 @@
 baseURL = "https://orvarlog.github.io/orvarlog.se"
 # title = "Orvar's personal website"
+publishDir = "docs"
+
 author = "Orvar Lorimer Olsson"
 copyright = " "
 paginate = 43
