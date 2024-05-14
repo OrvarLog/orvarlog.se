@@ -22,7 +22,7 @@ address:
   - 
     name: studying Logic at 
     street: Department of Philosophy, Linquistics and Theory of Science
-    postal_code: University of Gothenburg
+    postal_code: University of Gothenburg,
     locality: Sweden
 
 # === Optional fields ===
@@ -80,5 +80,5 @@ doi = {10.1038/ncomms2819}\n
 
 # Cite under construction 
 
-This is a home page for Orvar Lorimer Olsson currently being constructed.
+This is a homepage for Orvar Lorimer Olsson currently being constructed.
 
