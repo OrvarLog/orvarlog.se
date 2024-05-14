@@ -1,78 +1,89 @@
-baseURL = "https://orvarlog.github.io/orvarlog.se"
-# title = "Orvar's personal website"
-publishDir = "docs"
+# This is the configuration file for the example website of the Hugo theme
+# Astatine (see https://github.com/hugcis/hugo-astatine-theme).
+#
+# The URL from which the site will be served
+baseurl = "https://orvarlog.github.io/orvarlog.se/"
+# Language used
+languageCode = "en-us"
+# Website title
+title = "Orvar Lorimer Olsson"
+# Theme used
+theme = "hugo-astatine-theme"
 
-author = "Orvar Lorimer Olsson"
-copyright = " "
-paginate = 43
-languageCode = "en"
-DefaultContentLanguage = "en"
-enableInlineShortcodes = true
-# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
-# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
-ignoreErrors = ["error-remote-getjson"]
+preserveTaxonomyNames = true
+rssLimit = 10
+paginate = 10
 
-# ------------------------------
-theme = "paper-adjusted"
-title = "Orvar"
+# Code highlighting
+pygmentsCodefences = true
+pygmentsStyle = "native"
 
-[params]
-  color = 'linen'
-
-  avatar = 'textpattern'
-  name = 'Orvar Lorimer Olsson'
-  bio = 'nstnstsntnstnstnestnststntssn'
-# ------------------------------
-
-# needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-#  [markup.highlight]
-#    lineNos = true
-
-[menu]
-
-  [[menu.main]]
-    identifier = "Menu1"
-    name = "Menu1"
-    url = "/about/"
-    weight = 10
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 200
-
+# Taxonomies (only tags and categories are supported out of the box but you can
+# add more)
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+    category = "categories"  
+    tag = "tags"
+    thirdtax = "thirdtax"
 
-[privacy]
+# Configure permalinks style
+[permalinks]
+    post = "/:slug/"
+    page = "/:slug/"
 
-  [privacy.vimeo]
-    disabled = false
-    simple = true
+# Configure main navbar links. They can have a weight to select the order.
+# This links to content within the content/post/ folder
+ [[menu.main]]
+#    name = "Posts"
+#    url = "/post/"
+#    weight = -150
 
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
+# This links to the page about.md
+# [[menu.main]]
+#    name = "About"
+#    url = "/about/"
+#    weight = -110
 
-  [privacy.instagram]
-    disabled = false
-    simple = true
+# Make the tags and categories pages accessible directly from the navbar.
+# [[menu.main]]
+#    name = "Tags"
+#    url = "/tags/"
+#    weight = -120
 
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
+# [[menu.main]]
+#    name = "Categories"
+#    url = "/categories/"
+#    weight = -130
 
-[services]
+# Site wide params and SEO
+[params]
+    # Site description. Individual pages can have descriptions too but if
+    # missing it will fallback to that one.
+    description = """Orvar Lorimer Olsson's personal homepage"""
+    # Author of the site
+    authorName = "Orvar Lorimer Olsson"
+    # Main image for the author. This will be the default image for SEO.
+    [params.imgname]
+        name = "img/OLOpic.jpg"
+        # Add an alt description for the image
+        alt = "Profile picture"
 
-  [services.instagram]
-    disableInlineCSS = true
+    # Indicate if you host Katex yourself. Defaults to using the CDN KaTex.
+    # hostedKaTex = false
 
-  [services.twitter]
-    disableInlineCSS = true
+    # Optional: add a twitter handle and mastodon handle for SEO.
+    # [params.twitter]
+        # name = "@Jack_harkness"
+    # [params.mastodon]
+        # name = "@jkharkness"
+        # host = "mastodon.social"
+    
+    # Enable link to feed in footer
+    blogrss = false
+
+    # Enable pingback and webmention via webmention.io
+    # webmention = "hugocisneros.com"
+
+
+# Sitemap location (default is /sitemap.xml)
+[sitemap]
+  filename = "sitemap.xml"
