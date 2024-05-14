@@ -3,6 +3,7 @@
 #
 # The URL from which the site will be served
 baseurl = "https://orvarlog.github.io/orvarlog.se/"
+publishDir = "docs"
 # Language used
 languageCode = "en-us"
 # Website title
