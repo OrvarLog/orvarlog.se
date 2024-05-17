@@ -78,7 +78,7 @@ doi = {10.1038/ncomms2819}\n
     description: The radioactive element astatine exists only in trace amounts in nature. Its properties can therefore only be explored by study of the minute quantities of artificially produced isotopes or by performing theoretical calculations. One of the most important properties influencing the chemical behaviour is the energy required to remove one electron from the valence shell, referred to as the ionization potential.
 ---
 
-# Cite under construction 
+# Site under construction 
 
 This is a homepage for Orvar Lorimer Olsson currently being constructed.
 
