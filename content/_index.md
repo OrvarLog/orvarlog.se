@@ -80,7 +80,7 @@ doi = {10.1038/ncomms2819}\n
 
 # Research statement
 
-I am a stundent and reseacher of (mathematical) formal logics. With a warm heart for algebra, and a tendency for abstraction, I am interested in fundamental questions regarding formulations of logical semantics and proof systems: identifying classes of systems, translations between systems, systematically generating new systems from known structures, etc. A lot of my approach could fall under the umbrella of 'universal logic' and i am interested investigating questions regarding how fundamental changes in formulation effects the complexity in expressing or proving properties of a system. Hopefully these investigations will in the long run give some insights in the fundamental question of 'logicality': what distinguishes properties that can be considered 'logical' from other properties?
+I am a stundent and reseacher of (mathematical) formal logics. With a warm heart for algebra, and a tendency for abstraction, I am interested in fundamental questions regarding formulations of logical semantics and proof systems: identifying classes of systems, translations between systems, systematically generating new systems from known structures, etc. A lot of my approach could fall under the umbrella of "universal logic" and i am interested investigating questions regarding how fundamental changes in formulation effects the complexity in expressing or proving properties of a system. Hopefully these investigations will in the long run give some insights in the fundamental question of "logicality": what distinguishes properties that can be considered "logical" from other properties?
 
 
 
