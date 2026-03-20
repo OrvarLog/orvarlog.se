@@ -77,16 +77,22 @@ doi = {10.1038/ncomms2819}\n
     # A description for the paper.
     description: The radioactive element astatine exists only in trace amounts in nature. Its properties can therefore only be explored by study of the minute quantities of artificially produced isotopes or by performing theoretical calculations. One of the most important properties influencing the chemical behaviour is the energy required to remove one electron from the valence shell, referred to as the ionization potential.
 ---
-
-# Research statement
-
-I am a stundent and reseacher of (mathematical) formal logics. With a warm heart for algebra, and a tendency for abstraction, I am interested in fundamental questions regarding formulations of logical semantics and proof systems: identifying classes of systems, translations between systems, systematically generating new systems from known structures, etc. A lot of my approach could fall under the umbrella of "universal logic" and i am interested investigating questions regarding how fundamental changes in formulation effects the complexity in expressing or proving properties of a system. Hopefully these investigations will in the long run give some insights in the fundamental question of "logicality": what distinguishes properties that can be considered "logical" from other properties?
+## Under construction
+This homepage is currently being constructed. Please come back at a later stage.
 
 
+## Presentation
+ 
+I am a student and researcher of (mathematical) formal logics. With a warm heart for algebra, and a tendency for abstraction, I am interested in fundamental questions regarding formulations of logical semantics and proof systems: identifying classes of systems, translations between systems, systematically generating new systems from known structures, etc. A lot of my approach could fall under the umbrella of "universal logic" and questions regarding how fundamental changes in formulation effects the complexity in expressing or proving properties of a system. Hopefully these investigations will in the long run give some insights in the fundamental question of "logicality": what distinguishes properties that can be considered "logical" from other properties?
 
+## My PhD thesis project
+
+
+
+## Contact 
 To find my official contact information, please find me through the institution I am affiliated with. 
 
-This homepage is currently being constructed. Please come back at a later stage.
+
 
 
 
