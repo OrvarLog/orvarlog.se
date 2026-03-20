@@ -96,7 +96,7 @@ In my thesis work I try to pin down exactly how the semantic lift from individua
 As a general slogan applicable outside of pure logic, the main research question can be posed as follows:
 Given information about properties of individuals, what does it tell us about the properties of the groups they can form?
 
-Currently I my approach has been to study algebraic structures and their *power-structures*, being the structures formed by their subsets, investigating some of the above questions primarily for propositional logics. The goal is to also extend this work to predicate logics, and higher order languages,  with particular care for results regarding different types of generalised quantifiers. 
+Currently, my approach has been to study algebraic structures and their *power-structures*, being the structures formed by their subsets, investigating some of the above questions primarily for propositional logics. The goal is to also extend this work to predicate logics, and higher order languages,  with particular care for results regarding different types of generalised quantifiers. 
 
 ## Contact 
 To find my official contact information, please find me through the institution I am affiliated with. 
