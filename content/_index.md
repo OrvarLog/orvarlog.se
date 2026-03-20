@@ -85,9 +85,18 @@ This homepage is currently being constructed. Please come back at a later stage.
  
 I am a student and researcher of (mathematical) formal logics. With a warm heart for algebra, and a tendency for abstraction, I am interested in fundamental questions regarding formulations of logical semantics and proof systems: identifying classes of systems, translations between systems, systematically generating new systems from known structures, etc. A lot of my approach could fall under the umbrella of "universal logic" and questions regarding how fundamental changes in formulation effects the complexity in expressing or proving properties of a system. Hopefully these investigations will in the long run give some insights in the fundamental question of "logicality": what distinguishes properties that can be considered "logical" from other properties?
 
-## My PhD thesis project
+## My PhD thesis project : Lifting formal systems from individuals to groups 
+A standard understanding of what it means for a statement to be "logically valid" is that it is satisfied in every possible interpretation. Reflecting this notion, many formal semantic systems are expressed in terms of some collection of tokens (be it objects, worlds, assignment functions or the like) for which formal statements may be satisfied or not. This defines a semantics in terms of properties of individuals.
 
+Given such semantic setup, we can also consider satisfaction in terms of groups of semantic tokens. This lifts the statement of the semantics to properties of "teams" of individuals. Such lift gives rise to a much richer semantic space, and makes it possible to extend the formal language with statements about groups  that are not meaningfully stated about individual tokens, e.g. notions of dependent choices. 
+This type of semantic lift has been most explicitly used to define *dependence logic* by means of *team semantics* capable of describing forms of quantification not expressible in standard first order logic. Similar lifts has also been used to form semantics with notions of  ambiguity or *plurivalence* for multi-valued logics. Furthermore, in an abstract sense we can also describe the notion of Kripkean possible worlds semantics as the result of a similar type of semantic lift from possible worlds to related groups of possible worlds.
 
+In my thesis work I try to pin down exactly how the semantic lift from individuals to group really works and what properties of the underlying system that are forced on the lifted semantics: Given a logic with a well understood semantic system in terms of individual tokens, what do we know about the team semantics that it induces? What is the expressive power of the induced formula language? Is the lift categorical for the logic or dependent of the semantic representation? Does a proof system for the underlying logic inform us how to form a proof system for the logic of the lifted semantics? etc. 
+
+As a general slogan applicable outside of pure logic, the main research question can be posed as follows:
+Given information about properties of individuals, what does it tell us about the properties of the groups they can form?
+
+Currently I have approach these questions by studying algebraic structures and their *power-structures*, being the structures formed by their subsets, investigating some of the above questions primarily for propositional logics. The goal is to also extend this work to predicate logics, and higher order languages,  with particular care for results regarding different types of generalised quantifiers. 
 
 ## Contact 
 To find my official contact information, please find me through the institution I am affiliated with. 
