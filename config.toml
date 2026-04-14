@@ -7,7 +7,7 @@ publishDir = "docs"
 # Language used
 languageCode = "en-us"
 # Website title
-title = "Orvar Lorimer Olsson"
+title = "Orvar Lorimer-Olsson"
 # Theme used
 theme = "hugo-astatine-theme"
 
@@ -59,9 +59,9 @@ pygmentsStyle = "native"
 [params]
     # Site description. Individual pages can have descriptions too but if
     # missing it will fallback to that one.
-    description = """Orvar Lorimer Olsson's personal homepage"""
+    description = """Orvar Lorimer-Olsson's personal homepage"""
     # Author of the site
-    authorName = "Orvar Lorimer Olsson"
+    authorName = "Orvar Lorimer-Olsson"
     # Main image for the author. This will be the default image for SEO.
     [params.imgname]
         name = "img/OLOpic.jpg"
