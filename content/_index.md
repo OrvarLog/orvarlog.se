@@ -2,7 +2,7 @@
 ---
 # === Required fields  ===
 # Your name 
-name: "Orvar Lorimer Olsson"
+name: "Orvar Lorimer-Olsson"
 # Your profile picture
 imgname: 
   name: "img/OLOpic.jpg"
