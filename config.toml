@@ -62,6 +62,7 @@ pygmentsStyle = "native"
     description = """Orvar Lorimer-Olsson's personal homepage"""
     # Author of the site
     authorName = "Orvar Lorimer-Olsson"
+
     # Main image for the author. This will be the default image for SEO.
     [params.imgname]
         name = "img/OLOpic.jpg"
